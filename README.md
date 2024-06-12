@@ -25,7 +25,7 @@ Professor Leonardo Silva de Lima        <br>
   aglomerado estelar num determinado campo estelar.
 </p>
 <p>
-  Este problema consiste em segregar o campo e o aglomerado de estrelas em
+  &nbsp;Este problema consiste em segregar o campo e o aglomerado de estrelas em
   um determinado campo a partir de catálogos gerados a partir de imagens de
   um telescópio. Tal procedimento é conhecido como atribuição de membros, ou
   segregação de membros (denotamos esse problema como Stellar Cluster Mem-
@@ -35,3 +35,36 @@ Professor Leonardo Silva de Lima        <br>
   medição da magnitude de cada estrela em cada banda passante de comprimento
   de onda. Veja as seguintes informações abaixo:
 </p>
+<ol>
+  <li>
+    Considere o arquivo “STARS-144.txt” disponı́vel no Teams da disciplina
+    contendo as informações de aproximadamente 500 estrelas. Cada linha do ar-
+    quivo corresponde a uma estrela com suas 18 caracterı́sticas: as duas primeiras
+    colunas dizem respeito às coordenadas x e y de cada estrela e as restantes dizem
+    respeito às caracterı́sticas fotométricas da estrela. A última coluna (coluna 19)
+    apresenta valor 1 se a estrela pertence ao open cluster e 0 caso contrário.
+  </li>
+  <li>
+    Considere padronizar (ou normalizar) os dados antes de realizar a tarefa de
+    redução de dimensionalidade. Isto porque a ordem de grandeza dos dados pode
+    ser muito diferente e impactar na decomposição. Exemplos de técnicas são o
+    z-score e o min-max.
+  </li>
+  <li>
+    Implemente a rotina de Decomposição por Valores Singulares. Após a
+    Etapa 2, realize a decomposição por valores singulares nos dados da estrela
+    para a redução de dimensionalidade. Faça testes com dimensionalidades 3, 4 e
+    5 e compare os resultados obtidos.
+  </li>
+  <li>
+    Use um algoritmo de agrupamento (clustering) já disponı́vel na literatura
+    (por exemplo, o k-means) para agrupar as estrelas abaixo em dois grupos dis-
+    tintos (grupo 1 do open cluster e grupo 2 fora do open cluster). Na sequência,
+    verifique o percentual de assertividade do método com a classificação dada na
+    última coluna do arquivo “STARS-144.txt”.
+  </li>
+  <li>
+    Faça uma tabela contendo os percentuais de assertividade para cada redução
+    de dimensionalidade realizada.
+  </li>
+</ol>
