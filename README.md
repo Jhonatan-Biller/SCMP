@@ -1,4 +1,7 @@
-Universidade Federal do Paraná
+Universidade Federal do Paraná          <br>
+Programa de Pós-Graduação em Matemática <br>
+Álgebra Linear Aplicada                 <br>
+Professor Leonardo Silva de Lima        <br>
 <h2>
   Problema proposto: Redução de Dimensionalidade através da Decomposição
   por Valores Singulares e Agrupamento 
