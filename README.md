@@ -24,3 +24,14 @@ Professor Leonardo Silva de Lima        <br>
   safios mais fundamentais é o problema de descobrir quais são os membros do
   aglomerado estelar num determinado campo estelar.
 </p>
+<p>
+  Este problema consiste em segregar o campo e o aglomerado de estrelas em
+  um determinado campo a partir de catálogos gerados a partir de imagens de
+  um telescópio. Tal procedimento é conhecido como atribuição de membros, ou
+  segregação de membros (denotamos esse problema como Stellar Cluster Mem-
+  bership Assignment Problem, ou SCMP). Normalmente, os dados mais difundi-
+  dos disponı́veis para resolver o problema são as posições de cada estrela, bem
+  como os seus parâmetros fotométricos. Esses parâmetros estão relacionados à
+  medição da magnitude de cada estrela em cada banda passante de comprimento
+  de onda. Veja as seguintes informações abaixo:
+</p>
