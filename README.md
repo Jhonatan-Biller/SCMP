@@ -61,7 +61,7 @@ Professor Leonardo Silva de Lima        <br>
     (por exemplo, o k-means) para agrupar as estrelas abaixo em dois grupos dis-
     tintos (grupo 1 do open cluster e grupo 2 fora do open cluster). Na sequência,
     verifique o percentual de assertividade do método com a classificação dada na
-    última coluna do arquivo “STARS-144.txt”.
+    última coluna do arquivo “stars.txt”.
   </li>
   <li>
     Faça uma tabela contendo os percentuais de assertividade para cada redução
